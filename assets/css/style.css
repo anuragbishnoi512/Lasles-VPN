@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pt-88 {
+    padding-top: 88.49px;
+}
+
+.navbar {
+    padding-top: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menulist {
+    display: flex;
+    gap: 40px;
+}
+
+.corner-btn {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.sign-in {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    color: #0B132A;
+}
+
+.sign-up {
+    border: 2px solid #F53855;
+    border-radius: 50px;
+    padding: 10px 35px;
+    background-color: white;
+    color: #F53855;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+}
+
+.sign-up:hover {
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    color: #4F5665;
+}
+
+/* ----------------------------------------------------- */
+.want-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    width: 555px;
+    margin-top: 120px;
+}
+
+.VPN-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.pro-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 555px;
+    padding-top: 20px;
+}
+
+.lasles-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.get-btn {
+    background-color: #F53838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 17px 70px;
+    margin-top: 50px;
+    /* --------- */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.get-btn:hover {
+    background-color: white;
+    color: #F53838;
+    box-shadow: 5px 5px 10px rgba(173, 34, 34, 0.5);
+}
+
+/* ------------------ */

@@ -30,6 +30,12 @@
     padding-right: 12px;
 }
 
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .pt-88 {
     padding-top: 88.49px;
 }
@@ -74,12 +80,14 @@
     font-weight: 500;
     line-height: 18.96px;
     text-align: left;
+    transition: 0.4s;
 }
 
 .sign-up:hover {
-    border: 2px solid black;
-    color: black;
+
+    color: white;
     cursor: pointer;
+    background-color: #F53838;
 }
 
 .nav-btn {
@@ -145,3 +153,372 @@
 }
 
 /* ------------------ */
+.main-box {
+    display: flex;
+    box-shadow: 0px 42px 20px -16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.border-right {
+    border-right: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 0px 125px;
+}
+
+.info-txt-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.info-txt-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.last-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 37px 90px;
+}
+
+/* ------------------ */
+.we-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    width: 383px;
+}
+
+.you-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 431px;
+    color: #4F5665;
+    margin-top: 31px;
+}
+
+.power-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.power-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ------------------ */
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.pb-143 {
+    padding-bottom: 143px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-155 {
+    margin-top: 155px;
+}
+
+/* ---------------------- */
+.plan-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.let-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 555px;
+    padding-top: 20px;
+}
+
+.box-shadow-1 {
+    box-shadow: 0px 7px 7px -3px rgba(0, 0, 0, 0.1);
+}
+
+.free-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.check-box {
+    margin-top: 30px;
+}
+
+.limited-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+
+
+.sec-3-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 740px;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.sec-3-box:hover {
+    border: 2px solid #F53838;
+}
+
+.free-1-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.select-btn {
+    color: #F53838;
+    border: 2px solid;
+    padding: 13px 62px;
+    border-radius: 50px;
+    background-color: white;
+    /*  */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.select-btn:hover {
+    color: white;
+    background-color: #F53838;
+}
+
+.spn-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.global-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    width: 383px;
+    margin-top: 150px;
+}
+
+.every-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 555px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.ales-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.huge-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    width: 447px;
+    margin-top: 57px;
+}
+
+.feature-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 555px;
+    margin-top: 20px;
+    color: #4F5665;
+}
+
+/* --------------slider */
+.pf-head {
+    gap: 108px;
+
+}
+
+.card {
+    max-width: 400px;
+}
+
+.justify-btw {
+    justify-content: space-between;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.robert {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* text-align: center; */
+}
+
+.poland {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.numb {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.para-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 340px;
+    ;
+}

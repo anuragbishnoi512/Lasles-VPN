@@ -98,6 +98,39 @@
     color: #4F5665;
 }
 
+.nav-btn {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F53838;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* 
+.nav-btn:hover {
+    background: linear-gradient(45deg, #F53838, #e4a907);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+} */
+
+.nav-btn:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
 /* ----------------------------------------------------- */
 .want-txt {
     font-family: "Rubik", sans-serif;
@@ -448,7 +481,7 @@
 .social-media {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .customer-txt {
@@ -478,10 +511,6 @@
 
 }
 
-.card {
-    max-width: 400px;
-}
-
 .justify-btw {
     justify-content: space-between;
 }
@@ -490,15 +519,16 @@
     gap: 20px;
 }
 
-.robert {
+
+.slick-box-heading {
     font-family: "Rubik", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    /* text-align: center; */
+    text-wrap: nowrap;
 }
 
-.poland {
+.slick-box-address {
     font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -506,19 +536,265 @@
     color: #4F5665;
 }
 
-.numb {
+.svg-no {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.para-1 {
+.slick-para-3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    width: 340px;
+    padding-top: 10px;
+}
+
+
+/* ------------------------- */
+.sign-in {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.sign-in::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F53838;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* 
+.sign-in:hover {
+    background: linear-gradient(45deg, #F53838, #e4a907);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+} */
+
+.sign-in:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+/* ---------------------- */
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec-5-heading {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    max-width: 447.81px;
+}
+
+.sec-5-para {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    max-width: 555px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.box {
+    border: 2px solid #DDDDDD;
+    min-width: 200px !important;
+    min-height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.justify-content-space-btw {
+    justify-content: space-between;
+}
+
+.flex-direction-col-unset {
+    flex-direction: column;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-105 {
+    padding-left: 105px;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.prev {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next:hover {
+    background-color: #F53838;
+
+}
+
+.next:hover path {
+    fill: white;
+}
+
+.prev:hover {
+    background-color: #F53838;
+
+}
+
+.prev:hover path {
+    fill: white;
+}
+
+
+.slick-dots li {
+    background-color: #DDE0E4;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    width: 45px;
+    background-color: #F53838;
+    border-radius: 10px;
+}
+
+.slick-dots {
+    display: flex;
+    margin-top: 10px;
+    bottom: -70px;
+    width: 50%;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slick-dots li button:before {
+    opacity: 0 !important;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 50px !important;
+}
+
+.slick-dots li {
+    transition: 0.3s !important;
+}
+
+.slick-dots {
+    right: 43% !important;
+    bottom: -19% !important;
+}
+
+.subscribe {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    width: 371px;
+    color: #0B132A;
+}
+
+.subscribe-para {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    width: 340px;
-    ;
+    color: #4F5665;
+}
+
+.over-slider {
+    z-index: 2;
+}
+
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
+
+.subscribe-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    padding: 17px 65px;
+    background-color: #F53838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(173, 34, 34, 0.5);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: white;
+    color: #F53838;
+}
+
+.mt-57 {
+    margin-top: 57px;
 }

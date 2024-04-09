@@ -1,3 +1,11 @@
+let menuicon = document.querySelector(".nav-menu");
+let menulist = document.querySelector(".navbar-items");
+
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
+})
+
+
 $('.sliderbox').slick({
     dots: true,
     infinite: false,
@@ -32,6 +40,7 @@ $('.sliderbox').slick({
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2000,
+                dots: false,
             }
         }
     ]

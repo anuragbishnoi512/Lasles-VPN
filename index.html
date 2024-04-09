@@ -20,22 +20,29 @@
 
         <nav class="navbar w-100">
             <div class="container">
-                <div class="nav-items d-flex justify-between align-center">
+                <div class="nav-items ">
                     <div>
                         <img src="./assets/images/Logo.svg" alt="image">
                     </div>
+                    <div class="nav-menu cursor-pointer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="nav-items navbar-items d-flex gap-150 txt-center">
+                        <div class="menulist d-flex " id="navbar">
+                            <a href="#" class="nav-btn">About</a>
+                            <a href="#" class="nav-btn">Features</a>
+                            <a href="#" class="nav-btn">Pricing</a>
+                            <a href="#" class="nav-btn">Testimonials</a>
+                            <a href="#" class="nav-btn">Help</a>
+                        </div>
+                        <div class="corner-btn">
+                            <a href="#" class="sign-in">Sign In</a>
+                            <button class="sign-up">Sign Up</button>
+                        </div>
+                    </div>
 
-                    <div class="menulist d-flex">
-                        <a href="#" class="nav-btn">About</a>
-                        <a href="#" class="nav-btn">Features</a>
-                        <a href="#" class="nav-btn">Pricing</a>
-                        <a href="#" class="nav-btn">Testimonials</a>
-                        <a href="#" class="nav-btn">Help</a>
-                    </div>
-                    <div class="corner-btn">
-                        <a href="#" class="sign-in">Sign In</a>
-                        <button class="sign-up">Sign Up</button>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -44,67 +51,75 @@
     <section class="section-1">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <p class="want-txt">Want anything to be easy with <span class="VPN-txt">LaslesVPN.</span></p>
                     <p class="pro-text">Provide a network for all your needs with ease and fun using <span
                             class="lasles-txt">LaslesVPN</span> discover interesting features from us.</p>
                     <button class="get-btn">Get Started</button>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="pt-88">
-                        <img src="./assets/images/Illustration-1.png" alt="image">
+                        <img src="./assets/images/Illustration-1.png" alt="image" class="overflow-image">
                     </div>
                 </div>
             </div>
             <div class="main-box">
-                <div class="info-box">
-                    <div class="border-right">
-                        <span>
-                            <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M27.5001 26.3484C28.4549 26.3484 29.3706 25.9692 30.0457 25.294C30.7208 24.6189 31.1001 23.7032 31.1001 22.7484C31.1001 21.7937 30.7208 20.878 30.0457 20.2029C29.3706 19.5277 28.4549 19.1484 27.5001 19.1484C26.5453 19.1484 25.6296 19.5277 24.9545 20.2029C24.2794 20.878 23.9001 21.7937 23.9001 22.7484C23.9001 23.7032 24.2794 24.6189 24.9545 25.294C25.6296 25.9692 26.5453 26.3484 27.5001 26.3484ZM22.3988 37.1484C20.577 37.1484 19.0423 35.617 19.7395 33.9339C20.1616 32.9148 20.7804 31.9888 21.5604 31.2087C22.3404 30.4287 23.2664 29.81 24.2856 29.3878C25.3047 28.9657 26.397 28.7484 27.5001 28.7484C28.6032 28.7484 29.6955 28.9657 30.7146 29.3878C31.7338 29.81 32.6598 30.4287 33.4398 31.2087C34.2198 31.9888 34.8385 32.9148 35.2607 33.9339C35.9579 35.617 34.4232 37.1484 32.6014 37.1484H22.3988Z"
-                                    fill="#F53838" />
-                            </svg>
-                        </span>
-                        <div>
-                            <p class="info-txt-1">90+</p>
-                            <p class="info-txt-2">Users</p>
+                <div class="row py-37 w-100">
+                    <div class="col-lg-4 col-12  col-sm-6">
+                        <div class="info-box lf-border">
+                            <div class="last-border">
+                                <span>
+                                    <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M27.5001 26.3484C28.4549 26.3484 29.3706 25.9692 30.0457 25.294C30.7208 24.6189 31.1001 23.7032 31.1001 22.7484C31.1001 21.7937 30.7208 20.878 30.0457 20.2029C29.3706 19.5277 28.4549 19.1484 27.5001 19.1484C26.5453 19.1484 25.6296 19.5277 24.9545 20.2029C24.2794 20.878 23.9001 21.7937 23.9001 22.7484C23.9001 23.7032 24.2794 24.6189 24.9545 25.294C25.6296 25.9692 26.5453 26.3484 27.5001 26.3484ZM22.3988 37.1484C20.577 37.1484 19.0423 35.617 19.7395 33.9339C20.1616 32.9148 20.7804 31.9888 21.5604 31.2087C22.3404 30.4287 23.2664 29.81 24.2856 29.3878C25.3047 28.9657 26.397 28.7484 27.5001 28.7484C28.6032 28.7484 29.6955 28.9657 30.7146 29.3878C31.7338 29.81 32.6598 30.4287 33.4398 31.2087C34.2198 31.9888 34.8385 32.9148 35.2607 33.9339C35.9579 35.617 34.4232 37.1484 32.6014 37.1484H22.3988Z"
+                                            fill="#F53838" />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <p class="info-txt-1">90+</p>
+                                    <p class="info-txt-2">Users</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="info-box">
-                    <div class="border-right">
-                        <span>
-                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                                <path
-                                    d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
-                                    fill="#F53838" />
-                            </svg>
-                        </span>
-                        <div>
-                            <p class="info-txt-1">30+</p>
-                            <p class="info-txt-2">Locations</p>
+                    <div class="col-lg-4 col-12 col-sm-6 ">
+                        <div class="info-box lf-border">
+                            <div class="last-border pl-35">
+                                <span>
+                                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                                        <path
+                                            d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
+                                            fill="#F53838" />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <p class="info-txt-1">30+</p>
+                                    <p class="info-txt-2">Locations</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="info-box">
-                    <div class="last-border">
-                        <span>
-                            <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                                <path
-                                    d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
-                                    fill="#F53838" />
-                            </svg>
-                        </span>
-                        <div>
-                            <p class="info-txt-1">50+</p>
-                            <p class="info-txt-2">Servers</p>
+                    <div class="col-lg-4 col-12  col-sm-6">
+                        <div class="info-box">
+                            <div class="last-border-2 pl-17">
+                                <span>
+                                    <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                                        <path
+                                            d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
+                                            fill="#F53838" />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <p class="info-txt-1">50+</p>
+                                    <p class="info-txt-2">Servers</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -182,7 +197,7 @@
                 </p>
             </div>
             <div class="row mt-60">
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12">
                     <div class="sec-3-box">
                         <div>
                             <div class="d-flex justify-center">
@@ -242,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12">
                     <div class="sec-3-box">
                         <div>
                             <div class="d-flex justify-center">
@@ -313,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12 mt-24">
                     <div class="sec-3-box">
                         <div>
                             <div class="d-flex justify-center">
@@ -407,14 +422,14 @@
                     locations.</p>
             </div>
             <div class="mt-155">
-                <img src="./assets/images/global-map.png" alt="image">
+                <img src="./assets/images/global-map.png" alt="image" class="w-100">
             </div>
             <div class="social-media">
-                <div class="netflix"><img src="./assets/images/netflix.png" alt="image"></div>
-                <div class="redit"><img src="./assets/images/redit.png" alt="image"></div>
-                <div class="amazon"><img src="./assets/images/amazon.png" alt="image"></div>
-                <div class="discord"><img src="./assets/images/discord.png" alt="image"></div>
-                <div class="spotify"><img src="./assets/images/spotify.png" alt="image"></div>
+                <div class="netflix"><img src="./assets/images/netflix.png" alt="image" class="w-100"></div>
+                <div class="redit"><img src="./assets/images/redit.png" alt="image" class="w-100"></div>
+                <div class="amazon"><img src="./assets/images/amazon.png" alt="image" class="w-100"></div>
+                <div class="discord"><img src="./assets/images/discord.png" alt="image" class="w-100"></div>
+                <div class="spotify"><img src="./assets/images/spotify.png" alt="image" class="w-100"></div>
             </div>
         </div>
     </section>
@@ -443,7 +458,7 @@
                                     <h2 class="slick-box-heading">Viezh Robert</h2>
                                     <p class="slick-box-address">Warsaw, Poland</p>
                                 </div>
-                                <div class="para-2 d-flex align-center pl-105">
+                                <div class="para-2 d-flex align-center pl-105 pl-85">
                                     <p class="svg-no">4.5</p>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -472,7 +487,7 @@
                                     <h2 class="slick-box-heading">Yessica Christy</h2>
                                     <p class="slick-box-address">Shanxi, China</p>
                                 </div>
-                                <div class="para-2 d-flex align-center pl-105 ">
+                                <div class="para-2 d-flex align-center pl-105 pl-85 ">
                                     <p class="svg-no">4.5</p>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -498,7 +513,7 @@
                                     <h2 class="slick-box-heading">Kim Young Jou</h2>
                                     <p class="slick-box-address">Seoul, South Korea</p>
                                 </div>
-                                <div class="para-2 d-flex align-center pl-105">
+                                <div class="para-2 d-flex align-center pl-105 pl-85">
                                     <p class="svg-no">4.5</p>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -523,7 +538,7 @@
                                     <h2 class="slick-box-heading">Viezh Robert</h2>
                                     <p class="slick-box-address">Warsaw, Poland</p>
                                 </div>
-                                <div class="para-2 d-flex align-center pl-105">
+                                <div class="para-2 d-flex align-center pl-105 pl-85">
                                     <p class="svg-no">4.5</p>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -551,7 +566,7 @@
                                     <h2 class="slick-box-heading">Viezh Robert</h2>
                                     <p class="slick-box-address">Warsaw, Poland</p>
                                 </div>
-                                <div class="para-2 d-flex align-center pl-105">
+                                <div class="para-2 d-flex align-center pl-105 pl-85">
                                     <p class="svg-no">4.5</p>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -570,7 +585,7 @@
                             problems. LaslesVPN always the best”.</p>
                     </div>
                 </div>
-                <div class="d-flex gap-15 justify-content-flex-end slick-arrow-buttons">
+                <div class="d-flex gap-15 justify-content-flex-end slick-arrow-buttons mt-25">
                     <button class="prev d-flex align-center justify-center"><svg width="20" height="18"
                             viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -589,20 +604,126 @@
             </div>
         </div>
     </section>
-    <section class="section-6">
+    <section class="section-6 pb-40">
         <div class="container">
-            <div class="d-flex justify-btw align-center mt-57">
-                <div>
+            <div class="d-flex justify-btw align-center mt-57 sub-box flex-wrap">
+                <div class="mt-20">
                     <h2 class="subscribe">Subscribe Now for Get Special Features!</h2>
                     <p class="subscribe-para mt-20">Let's subscribe with us and find the fun.</p>
                 </div>
-                <div>
+                <div class="mt-20">
                     <button class="subscribe-btn">Subscribe Now</button>
                 </div>
             </div>
-
         </div>
     </section>
+    <footer class="footer-bg pt-69">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mt-20">
+                    <div class="d-flex align-center gap-10">
+                        <div><img src="./assets/images/logo-1.svg" alt="image"></div>
+                        <p class="last-lastxt">Lasles<span class="spn-txt-vpn">VPN</span></p>
+                    </div>
+                    <p class="last-para"><span class="spn-txt-vpn-2">LaslesVPN</span> is a private virtual network that
+                        has unique features and has high security.</p>
+                    <div class=" d-flex gap-20 pt-30">
+                        <a href="https://www.facebook.com/" class="scale-svg">
+                            <span>
+                                <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.8 0.580078C7.5215 0.580078 0 8.10158 0 17.3801C0 26.6586 7.5215 34.1801 16.8 34.1801C26.0785 34.1801 33.6 26.6586 33.6 17.3801C33.6 8.10158 26.0785 0.580078 16.8 0.580078ZM20.7795 12.1896H18.2543C17.955 12.1896 17.6225 12.5833 17.6225 13.1066V14.9301H20.7813L20.3035 17.5306H17.6225V25.3373H14.6423V17.5306H11.9385V14.9301H14.6423V13.4006C14.6423 11.2061 16.1648 9.42283 18.2543 9.42283H20.7795V12.1896Z"
+                                        fill="#F53838" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="https://twitter.com/i/flow/login" class="scale-svg">
+                            <span>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.4001 0.580078C8.1216 0.580078 0.600098 8.10158 0.600098 17.3801C0.600098 26.6586 8.1216 34.1801 17.4001 34.1801C26.6786 34.1801 34.2001 26.6586 34.2001 17.3801C34.2001 8.10158 26.6786 0.580078 17.4001 0.580078ZM24.2339 14.3421C24.2409 14.4856 24.2426 14.6291 24.2426 14.7691C24.2426 19.1441 20.9159 24.1858 14.8294 24.1858C13.0309 24.1888 11.2698 23.6723 9.75785 22.6983C10.0151 22.7298 10.2793 22.7421 10.5471 22.7421C12.0976 22.7421 13.5239 22.2153 14.6561 21.3263C13.9661 21.3128 13.2975 21.0843 12.7435 20.6727C12.1896 20.2612 11.7778 19.687 11.5656 19.0303C12.0611 19.1246 12.5716 19.1048 13.0583 18.9726C12.3094 18.8211 11.6359 18.4153 11.1521 17.824C10.6682 17.2326 10.4038 16.4922 10.4036 15.7281V15.6878C10.8498 15.9346 11.3608 16.0851 11.9033 16.1026C11.2012 15.6352 10.7042 14.9173 10.5139 14.0956C10.3236 13.2739 10.4544 12.4105 10.8796 11.6821C11.7108 12.7041 12.7473 13.5401 13.9221 14.1361C15.0969 14.7321 16.3837 15.0747 17.6994 15.1418C17.5321 14.4319 17.6041 13.6865 17.9041 13.0217C18.2042 12.3569 18.7154 11.8098 19.3585 11.4655C20.0015 11.1213 20.7403 10.9991 21.4599 11.118C22.1796 11.2369 22.8397 11.5903 23.3379 12.1231C24.0784 11.9766 24.7886 11.7049 25.4379 11.3198C25.191 12.0866 24.6743 12.7376 23.9836 13.1521C24.6396 13.0731 25.2801 12.8967 25.8841 12.6288C25.4405 13.2936 24.8816 13.8738 24.2339 14.3421Z"
+                                        fill="#F53838" />
+                                </svg>
+                            </span></a>
+                        <a href="https://www.instagram.com/" class="scale-svg">
+                            <span>
+                                <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.25 17.3801C22.25 18.7725 21.6968 20.1078 20.7123 21.0924C19.7277 22.077 18.3923 22.6301 17 22.6301C15.6076 22.6301 14.2722 22.077 13.2876 21.0924C12.3031 20.1078 11.75 18.7725 11.75 17.3801C11.75 17.0808 11.7815 16.7886 11.8357 16.5051H9.99995V23.4998C9.99995 23.9863 10.3937 24.3801 10.8802 24.3801H23.1215C23.3546 24.3796 23.5781 24.2867 23.7428 24.1216C23.9075 23.9566 24 23.733 24 23.4998V16.5051H22.1642C22.2185 16.7886 22.25 17.0808 22.25 17.3801ZM17 20.8801C17.4597 20.88 17.9149 20.7893 18.3396 20.6133C18.7643 20.4372 19.1502 20.1792 19.4752 19.8541C19.8002 19.5289 20.058 19.1429 20.2338 18.7181C20.4096 18.2933 20.5001 17.8381 20.5 17.3783C20.4998 16.9186 20.4092 16.4634 20.2331 16.0387C20.0571 15.614 19.7991 15.2281 19.474 14.9031C19.1488 14.5781 18.7628 14.3203 18.338 14.1445C17.9132 13.9687 17.4579 13.8782 16.9982 13.8783C16.0697 13.8786 15.1793 14.2476 14.523 14.9043C13.8666 15.561 13.498 16.4516 13.4982 17.3801C13.4984 18.3086 13.8675 19.1989 14.5242 19.8553C15.1809 20.5117 16.0715 20.8803 17 20.8801ZM21.2 13.7051H23.2982C23.4376 13.7051 23.5713 13.6498 23.6701 13.5514C23.7688 13.453 23.8245 13.3195 23.825 13.1801V11.0818C23.825 10.9421 23.7695 10.8081 23.6707 10.7094C23.5719 10.6106 23.4379 10.5551 23.2982 10.5551H21.2C21.0603 10.5551 20.9263 10.6106 20.8275 10.7094C20.7287 10.8081 20.6732 10.9421 20.6732 11.0818V13.1801C20.675 13.4688 20.9112 13.7051 21.2 13.7051ZM17 0.580078C12.5443 0.580078 8.27117 2.35007 5.12056 5.50068C1.96995 8.6513 0.199951 12.9244 0.199951 17.3801C0.199951 21.8357 1.96995 26.1089 5.12056 29.2595C8.27117 32.4101 12.5443 34.1801 17 34.1801C19.2062 34.1801 21.3908 33.7455 23.429 32.9013C25.4673 32.057 27.3193 30.8195 28.8794 29.2595C30.4394 27.6995 31.6769 25.8474 32.5211 23.8092C33.3654 21.7709 33.8 19.5863 33.8 17.3801C33.8 15.1739 33.3654 12.9893 32.5211 10.951C31.6769 8.91273 30.4394 7.06071 28.8794 5.50068C27.3193 3.94066 25.4673 2.70318 23.429 1.8589C21.3908 1.01462 19.2062 0.580078 17 0.580078ZM25.75 24.1858C25.75 25.2551 24.875 26.1301 23.8057 26.1301H10.1942C9.12495 26.1301 8.24995 25.2551 8.24995 24.1858V10.5743C8.24995 9.50508 9.12495 8.63008 10.1942 8.63008H23.8057C24.875 8.63008 25.75 9.50508 25.75 10.5743V24.1858Z"
+                                        fill="#F53838" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                    <p class="copyright-txt pt-30">©2020Lasles <span class="copyright-vpn-txt">VPN</span></p>
+                </div>
+                <div class="col-lg-6 col-12 mt-20">
+                    <div class="row">
+                        <div class="col-lg-4 col-6 mt-20">
+                            <ul>
+                                <li class="footer-link-1">Product</li>
+                                <a href="#">
+                                    <li class="footer-link-2">Download</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Pricing</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Locations</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Server</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Countries</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Blog</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-6 mt-20">
+                            <ul>
+                                <li class="footer-link-1">Engage</li>
+                                <a href="#" class="footer-link-2">
+                                    <li class="footer-link-2">LaslesVPN ?</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">FAQ</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Tutorials</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">About Us</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Privacy Policy</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Terms of Service</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-6 mt-20">
+                            <ul>
+                                <li class="footer-link-1">Earn Money</li>
+                                <a href="#">
+                                    <li class="footer-link-2">Affiliate</li>
+                                </a>
+                                <a href="#">
+                                    <li class="footer-link-2">Become Partner</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="

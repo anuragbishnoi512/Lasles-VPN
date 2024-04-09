@@ -935,8 +935,12 @@
     margin-top: 25px;
 }
 .scale-svg{
-    
+    transition: 0.4s;
 }
+.scale-svg:hover {
+    scale: 1.2;
+}
+
 @media (max-width:1200px) {
     .nav-menu {
         width: 40px;

@@ -12,7 +12,7 @@ $('.sliderbox').slick({
     speed: 300,
     nextArrow: ".next",
     prevArrow: ".prev",
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
     infinite: true,

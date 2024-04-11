@@ -635,7 +635,7 @@
 .box {
     border: 2px solid #DDDDDD;
     min-width: 200px !important;
-    min-height: 300px;
+    min-height: 265px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -665,6 +665,7 @@
 .pl-20 {
     padding-left: 20px;
 }
+
 
 .pl-105 {
     padding-left: 105px;
@@ -751,8 +752,8 @@
 }
 
 .slick-dots {
-    right: 43% !important;
-    bottom: -19% !important;
+    right: 40% !important;
+    bottom: -20% !important;
 }
 
 .subscribe {
@@ -913,7 +914,7 @@
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    margin-top: 14px;
     text-align: left;
     color: #4F5665;
     width: max-content;
@@ -934,11 +935,60 @@
 .mt-25 {
     margin-top: 25px;
 }
-.scale-svg{
+
+.scale-svg {
     transition: 0.4s;
 }
+
 .scale-svg:hover {
     scale: 1.2;
+}
+
+ .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0 !important;
+    position: relative;
+    z-index: -1;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
+
+.over-slider {
+    z-index: 2;
+}
+
+.slick-list {
+    overflow: visible !important;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+} 
+
+
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
 }
 
 @media (max-width:1200px) {
@@ -948,10 +998,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        position: absolute;
-        right: 0%;
-        /* transform: translateY(-50%); */
-        /* top: 50%; */
         z-index: 4;
     }
 
@@ -992,6 +1038,7 @@
         flex-direction: column;
     }
 
+
     .gap-150 {
         gap: 50px;
     }
@@ -1006,6 +1053,10 @@
 
     .pl-85 {
         padding-left: 85px;
+    }
+    .sec-2-row{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
